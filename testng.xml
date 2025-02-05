@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite">
+
+    <test name="LoginTests">
+        <classes>
+            <class name="frontend.login.InvalidLoginTest" />
+            <class name="frontend.login.ValidLoginTest" />
+        </classes>
+    </test>
+    <test name="CartTests">
+        <classes>
+            <class name="frontend.cart.AddToCartTest" />
+            <class name="frontend.cart.RemoveFromCartTest" />
+        </classes>
+    </test>
+    <test name="InventoryTests">
+        <classes>
+            <class name="frontend.inventory.SortItemsTest" />
+        </classes>
+    </test>
+
+</suite>
